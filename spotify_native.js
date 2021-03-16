@@ -582,7 +582,7 @@
                     messages_factory_1 = require("../shared/messages_factory"),
                     defer_1 = require("../shared/defer");
                 exports.setupPlayerEnv = function (e, s) {
-                    var t = "https://localhost/embed.html",
+                    var t = "http://localhost:5500/embed.html",
                         n = defer_1.defer(),
                         r = message_dispatcher_1.MessageDispatcher.create(),
                         o =
